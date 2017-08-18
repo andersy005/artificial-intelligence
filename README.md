@@ -17,6 +17,12 @@ Implementations in Java, C++, and Python of many of the algorithms discussed in 
 
 ## Table of Contents
 
-- [ ] Artificial Intelligence
-     - [ ] Introduction
+- [ ] [Artificial Intelligence](https://github.com/andersy005/artificial-intelligence/tree/master/01-Artificial-Intelligence)
+     - [ ] [Introduction](https://github.com/andersy005/artificial-intelligence/tree/master/01-Artificial-Intelligence/1-Introduction)
      - [ ] Intelligent Agents
+
+- [ ] [Problem-solving]()
+    - [ ] [Solving Problems by Searching]()
+    - [ ] [Beyond Classical Search]()
+    - [ ] [Adversarial Search]()
+    - [ ] [Constraint Satisfaction]()

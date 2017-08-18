@@ -19,7 +19,7 @@ Implementations in Java, C++, and Python of many of the algorithms discussed in 
 
 - [ ] [Artificial Intelligence](https://github.com/andersy005/artificial-intelligence/tree/master/01-Artificial-Intelligence)
      - [ ] [Introduction](https://github.com/andersy005/artificial-intelligence/tree/master/01-Artificial-Intelligence/1-Introduction)
-     - [ ] [Intelligent Agents]()
+     - [ ] [Intelligent Agents](https://github.com/andersy005/artificial-intelligence/tree/master/01-Artificial-Intelligence/2-Intelligent-agents)
 
 - [ ] [Problem-solving]()
     - [ ] [Solving Problems by Searching]()

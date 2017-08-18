@@ -1,7 +1,15 @@
 
 ![](http://aima.cs.berkeley.edu/cover2.jpg)
-# Artificial Intelligence 
-Implementation of Artificial Intelligence Algorithms: Notes, Exercises and Solutions to accompany Russell And Norvig's "Artificial Intelligence - A Modern Approach" and CPSC 4383/5383 Course.
+# Artificial Intelligence - CPSC 4383
+
+Instructor: [ Mariofanna Milanova](http://ualr.edu/mgmilanova/index.html)
+
+This repo contains all my work: code base, notes, exercises and solutions to accompany Russell And Norvig's "Artificial Intelligence - A Modern Approach" and CPSC 4383/5383 Course.
+
+The screenshots and images are taken from, unless specified, [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/).
 
 
 >AI is defined as the study of agents that receive percepts from the environment and perform actions. Each such agent implements a function that maps percept sequences to actions.
+
+
+Implementations in Java, C++, and Python of many of the algorithms discussed in the textbook are available in the authors' [online code repository](http://aima.cs.berkeley.edu/code.html)

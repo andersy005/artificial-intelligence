@@ -30,12 +30,7 @@ install:
   - "activate dl"
   - "conda list"
  
- build: false
- 
- # Check that we tensorflow and keras are working
- 
  test_script:
- 
   - "python ./ci/dl_test.py"
   
  

@@ -19,3 +19,4 @@ dependencies:
 - opencv3
 - flask
 - flask-socketio
+- cvxopt

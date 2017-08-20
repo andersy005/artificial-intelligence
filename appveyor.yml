@@ -29,8 +29,6 @@ install:
   - "conda env create -f ./environments/dl_windows.yml"
   - "activate dl"
   - "conda list"
- 
- test_script:
   - "python ./ci/dl_test.py"
   
  

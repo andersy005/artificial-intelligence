@@ -24,4 +24,7 @@ install:
   - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
   # install xarray and depenencies
+  - "conda --version"
+  - "conda list"
+  
  

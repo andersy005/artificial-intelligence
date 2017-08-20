@@ -1,4 +1,6 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/u8k0ijc6qc2s17at/branch/master?svg=true)](https://ci.appveyor.com/project/andersy005/artificial-intelligence/branch/master)
+| **Linux/OSX** | [![Build Status](https://travis-ci.org/andersy005/artificial-intelligence.svg?branch=master)](https://travis-ci.org/andersy005/artificial-intelligence)                                  |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Windows**   | [![Build status](https://ci.appveyor.com/api/projects/status/u8k0ijc6qc2s17at/branch/master?svg=true)](https://ci.appveyor.com/project/andersy005/artificial-intelligence/branch/master) |
 
 ![](http://aima.cs.berkeley.edu/cover2.jpg)
 # Artificial Intelligence - CPSC 4383

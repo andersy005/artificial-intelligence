@@ -33,10 +33,13 @@ install:
   - pip install codecov
   - conda list
  
+before_script:
+  - source activate dl
 
 script:
-  - coverage run ./ci/dl_test.py
   - pytest 
+  - coverage run ./ci/dl_test.py
+ 
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

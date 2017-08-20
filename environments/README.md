@@ -15,7 +15,11 @@ $ conda env create -f dl_env_linux_gpu.yml
 
 - Windows: ```activate myenv```
 - macOS and Linux: ```source activate myenv```
-NOTE: Replace myenv with the name of the environment.
-Verify that the new environment was installed correctly:
 
-conda list
+NOTE: Replace myenv with the name of the environment. 
+
+3. Verify that the new environment was installed correctly:
+
+```sh
+$ conda list
+```

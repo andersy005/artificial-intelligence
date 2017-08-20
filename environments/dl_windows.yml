@@ -16,3 +16,6 @@ dependencies:
 - scikit-learn
 - seaborn
 - bokeh
+- opencv3
+- flask
+- flask-socketio

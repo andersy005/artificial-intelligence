@@ -11,6 +11,11 @@ $ conda env create -f dl_env_linux.yml
 $ conda env create -f dl_env_linux_gpu.yml
 ```
 
+ - **Windows CPU only**
+```sh
+$ conda env create -f dl_env_windows.yml
+```
+
 2. Activate the new environment:
 
 - Windows: ```activate myenv```

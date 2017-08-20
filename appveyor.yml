@@ -29,9 +29,13 @@ install:
   - "conda env create -f ./environments/dl_windows.yml"
   - "activate dl"
   - "conda list"
-  
+ 
+ build: false
+ 
  # Check that we tensorflow and keras are working
- test:
+ 
+ test_script:
+ 
   - "python ./ci/dl_test.py"
   
  

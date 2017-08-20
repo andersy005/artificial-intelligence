@@ -30,7 +30,9 @@ install:
   #- conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION --file ./ci/requirements.txt
   - conda env create -f  ./environments/dl_env_linux.yml
   - source activate dl
+  - pip install codecov
   - conda list
+ 
 
 script:
   - coverage run ./ci/dl_test.py

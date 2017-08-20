@@ -21,7 +21,7 @@ install:
 
   # Check that we have the expected version and architecture for Python
   - "python --version"
-  - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
+  #- "python -c \"import struct; print(struct.calcsize('P') * 8)\""
 
   # install xarray and depenencies
   - "conda --version"

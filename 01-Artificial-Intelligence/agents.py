@@ -91,4 +91,10 @@ def TraceAgent(agent):
 
         
 
+__doc__ += """
+>>> a = Thing()
+>>> b = Agent()
+>>> b.alive
+"""
+
 

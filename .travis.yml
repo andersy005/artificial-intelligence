@@ -36,6 +36,7 @@ install:
 
 script:
   - coverage run ./ci/dl_test.py
+  - pytest 
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

@@ -7,3 +7,5 @@ AI-ML
 .idea/modules.xml
 .idea/artificial-intelligence.iml
 .idea/misc.xml
+*.pyc
+

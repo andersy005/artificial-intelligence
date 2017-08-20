@@ -1,0 +1,21 @@
+name: dl-gpu
+channels:
+- menpo
+- conda-forge
+- defaults
+dependencies:
+- numpy
+- scipy
+- pandas
+- jupyter
+- pillow
+- tensorflow-gpu
+- nltk
+- keras
+- scikit-image
+- scikit-learn
+- seaborn
+- bokeh
+- opencv3
+- flask
+- flask-socketio

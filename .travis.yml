@@ -37,7 +37,6 @@ before_script:
   - source activate dl
 
 script:
-  - pytest 
   - coverage run ./ci/dl_test.py
  
 

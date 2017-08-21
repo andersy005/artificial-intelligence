@@ -31,8 +31,6 @@ install:
   - "conda list"
   - "python ./ci/dl_test.py"
 
-test_script:
-  - "pytest"
   
  
   

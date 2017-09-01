@@ -6,6 +6,7 @@ Created on Thu Aug 31 20:35:18 2017
 @author: Anderson Banihirwe
 """
 
+from itertools import product, combinations
 
 assignments = []
 rows = 'ABCDEFGHI'
@@ -57,7 +58,9 @@ def naked_twins(values):
 
 def cross(A, B):
     "Cross product of elements in A and elements in B."
-    return [s + t for s in A for t in B]
+    #return [s + t for s in A for t in B]
+    return ['%s%s' % item for item in product(A, B)]
+
 
 
 boxes = cross(rows, cols)

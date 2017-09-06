@@ -3,6 +3,13 @@ import time
 import statistics
 import itertools
 import functools
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.style.use('seaborn')
+import numpy as np
+
+
+
 
 #------------------- Representing Cities--------------------------#
 class Point(complex):
@@ -51,9 +58,33 @@ def first(collection):
 Tour = list  # Tours are implemented as lists of cities.
 
 
+def tour_length(tours):
+    "The total of distances between each pair of consecutive cities in the tour."
+    dist_air = []
+    for i in range(len(tours)):
+        dist_air.append(sum([distance(tours[i][j], tours[i][j-1]) for j in range(len(tours[i]))]))
+
+    return dist_air
+
+
+
+#---------------------- Plotting------------------------------------#
+def plot_tour(tour):
+    "Plot the cities as circles and the tour as lines between them."
+    plot_lines(list(tour) + [tour[0]])
+
+def plot_lines(points, style='bo-'):
+    "Plot lines to connect a series of points."
+    plt.plot([p.x for p in points], [p.y for p in points], style)
+    plt.axis('scaled'); plt.axis('off')
+    plt.show()
+
 
 
 if __name__ == "__main__":
-    cities = Cities(3)
-    print(cities)
-    print(alltours(cities))
+    cities = Cities(5)
+    #print(cities)
+    #print(alltours(cities))
+    tour_length(alltours(cities))
+    for i in alltours(cities):
+        plot_tour(i)

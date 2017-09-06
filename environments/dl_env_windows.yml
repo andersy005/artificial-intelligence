@@ -21,8 +21,7 @@ dependencies:
 - flask
 - flask-socketio
 - cvxopt
-- pip:
-  - coverage
-  - coveralls
-  - codecov
-  - pytest
+- coverage
+- coveralls
+- codecov
+- pytest

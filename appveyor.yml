@@ -30,9 +30,9 @@ install:
   - "activate dl"
   - "conda list"
 
-script:
+test_script:
   - "coverage run -m pytest"
   - "coverage report -m"
 
-after_success:
-  - coveralls
+on_success:
+  - "coveralls"

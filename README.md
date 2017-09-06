@@ -2,6 +2,9 @@
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Windows**   | [![Build status](https://ci.appveyor.com/api/projects/status/u8k0ijc6qc2s17at/branch/master?svg=true)](https://ci.appveyor.com/project/andersy005/artificial-intelligence/branch/master) |
 
+
+[![Coverage Status](https://coveralls.io/repos/github/andersy005/artificial-intelligence/badge.svg?branch=master)](https://coveralls.io/github/andersy005/artificial-intelligence?branch=master)
+
 ![](http://aima.cs.berkeley.edu/cover2.jpg)
 # Artificial Intelligence - CPSC 4383
 

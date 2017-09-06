@@ -26,7 +26,7 @@ install:
   # install xarray and depenencies
   - "conda --version"
   - "conda list"
-  - "conda env create -f ./environments/dl_windows.yml"
+  - "conda env create -f environments\\dl_windows.yml"
   - "activate dl"
   - "conda list"
 
